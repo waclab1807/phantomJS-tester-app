@@ -1,0 +1,20 @@
+{
+  "name": "phantom-tester",
+  "main": "bower",
+  "authors": [
+    "Wacław Łabuda <waclab1807@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "waclabdev.pl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

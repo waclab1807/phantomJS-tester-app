@@ -1,0 +1,13 @@
+#/bin/bash
+
+if [[ `pwd` =~ /bin$ ]]
+then
+	cd ..
+fi
+
+bower install --allow-root
+npm install --save-dev
+grunt sass
+
+BUILD_TIME=`date +%s`
+echo module.exports="'$BUILD_TIME'" > config/buildVersion.js
